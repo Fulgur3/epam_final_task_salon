@@ -1,0 +1,76 @@
+html, body {
+    min-height: 100%;
+    height: auto !important;
+    width: auto;
+    background-color: #eeeeee;
+}
+
+body {
+    font-family: "Helvetica";
+    position: relative;
+    margin: 0;
+    padding-bottom: 7rem;
+    min-height: 100%;
+}
+
+main {
+    margin: 0 auto;
+    bottom: 64px;
+    max-width: inherit;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .7rem;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer a:hover, footer a:active, footer a:visited, footer a:link{
+    color: whitesmoke;
+}
+
+img {
+    object-fit: contain;
+}
+
+textarea {
+    min-height: 110px;
+    min-width: 200px;
+}
+
+.noresize {
+    resize: none;
+}
+
+.vresize {
+    resize: vertical;
+}
+
+.hresize {
+    resize: horizontal;
+}
+
+.service-card{
+    background-image: url("../images/card-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    padding-top: 100px;
+    width:auto;
+    height:90%;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #FF0000;
+}
