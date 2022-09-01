@@ -10,7 +10,7 @@
     <fmt:message bundle="${projectInfo}" key="cbb.name.short" var="projectName"/>
 
     <fmt:message bundle="${locale}" key="locale.table.id" var="idLabel"/>
-    <fmt:message bundle="${locale}" key="locale.currency.byn" var="byn"/>
+    <fmt:message bundle="${locale}" key="locale.currency.ua" var="UAH"/>
     <fmt:message bundle="${locale}" key="locale.table.time" var="timeLabel"/>
     <fmt:message bundle="${locale}" key="locale.table.status" var="statusLabel"/>
     <fmt:message bundle="${locale}" key="locale.table.services" var="servicesLabel"/>
