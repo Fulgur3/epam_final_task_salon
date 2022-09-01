@@ -120,7 +120,7 @@
                         <label><input type="checkbox" name="activityId"
                                       value="${activity.id}"
                                       onchange="checkServices()">
-                                ${activity.name} (${activity.price} ${byn})<br></label>
+                                ${activity.name} (${activity.price} ${UAH})<br></label>
                         <br/>
                     </c:forEach>
                 </div>

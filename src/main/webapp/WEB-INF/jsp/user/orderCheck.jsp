@@ -46,13 +46,13 @@
                     <br/>
                     <c:forEach var="activity" items="${sessionScope.order.activityList}">
                         <input type="hidden" name="activityId" value="${activity.id}"/>
-                        ${activity.name} (${activity.price} ${byn})<br/>
+                        ${activity.name} (${activity.price} ${UAH})<br/>
                     </c:forEach>
                 </div>
                 <div class="form-group">
                     <label>${priceLabel}:
                         <br/>
-                        ${sessionScope.order.price} ${byn}
+                        ${sessionScope.order.price} ${UAH}
                     </label>
                 </div>
                 <button type="submit" class="btn btn-default">${button}</button>

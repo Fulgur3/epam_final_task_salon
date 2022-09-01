@@ -42,7 +42,7 @@ public class ViewOrderCommand implements Command {
             String date = requestContent.getParameter(RequestParameter.ORDER_DATE);
             String time = requestContent.getParameter(RequestParameter.ORDER_TIME);
             String[] activityIdList = requestContent.getParameters(RequestParameter.ACTIVITY_ID);
-            BigDecimal orderPrice = new BigDecimal(BigInteger.ZERO);
+            BigDecimal orderPrice = BigDecimal.ZERO;
             List<Activity> activityList = new ArrayList<>();
             if (!OrderValidator.getInstance().validateDate(date) ||
             !OrderValidator.getInstance().validateTime(time, date) ||

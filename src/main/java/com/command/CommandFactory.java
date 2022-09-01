@@ -15,7 +15,14 @@ public class CommandFactory {
         }
         return instance;
     }
-
+    /**
+     * Returns a command with given name
+     *
+     * @param commandName
+     * Command name to look for
+     * @return
+     * Found command
+     */
     public Optional<Command> defineCommand(String commandName) {
         return Arrays.stream(CommandType.values())
                 .filter(command -> command.getName().equalsIgnoreCase(commandName))
